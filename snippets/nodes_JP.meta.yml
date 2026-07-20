@@ -6,7 +6,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 🇯🇵JP_5|3.4MB/s
+- name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 10624
@@ -14,7 +14,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 🇯🇵JP_6|2.9MB/s
+- name: 日本2|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 38937
@@ -22,7 +22,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 🇯🇵JP_7|3.4MB/s
+- name: 日本3|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 40138
@@ -30,32 +30,37 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵JP_1|3.7MB/s
+- client-fingerprint: random
+  name: 🇯🇵JP_1|3.9MB/s
   network: ws
-  port: 12883
-  server: cs.ktmcn.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 78f2e8f0-68ea-438e-84ec-d58c9416c680
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 🇯🇵JP_8|3.4MB/s
-  network: tcp
-  port: '35544'
-  reality-opts:
-    public-key: HrcXRHtsitc_AVlN-_8fZuRgaP-Mqa_9JJotI9OnkVc
-    short-id: '!!str 25c79e5856c7'
-  server: apibgp.ianai.it.com
-  servername: iosapps.itunes.apple.com
+  port: '443'
+  server: 172.64.52.210
+  servername: image.evan00.dpdns.org
   tls: true
   type: vless
   udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  uuid: b961a840-e716-4466-84e3-b701d10adec0
+  ws-opts:
+    headers:
+      Host: image.evan00.dpdns.org
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /proxyip=ProxyIP.US.cmliussss.net
+  xudp: true
+- client-fingerprint: random
+  name: 🇯🇵JP_2|3.6MB/s
+  network: ws
+  port: '8443'
+  server: 172.64.53.96
+  servername: image.evan00.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b961a840-e716-4466-84e3-b701d10adec0
+  ws-opts:
+    headers:
+      Host: image.evan00.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /proxyip=ProxyIP.US.cmliussss.net
   xudp: true
