@@ -210,12 +210,31 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: 🇺🇸US_4|2.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.167.54.100
-  type: ss
+- client-fingerprint: chrome
+  name: 🇸🇬SG_1|2.2MB/s
+  network: ws
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: '443'
+  server: 188.164.248.122
+  skip-cert-verify: false
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+    path: /in-pdr
+- alterId: 2
+  cipher: auto
+  name: 🇺🇸US_1|3.4MB/s
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: AE_speednode_0001
   network: ws
   password: MITIVPN
