@@ -47,3 +47,28 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
+- grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: vless
+  name: 🇩🇪DE_1|1.6MB/s
+  network: grpc
+  port: 2085
+  server: 81.31.211.172
+  tls: false
+  type: vless
+  udp: true
+  uuid: 31a62aa2-c465-4c1f-b636-f90578922b5f
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: 🇩🇪DE_2|2.1MB/s
+  password: 3ebac90b-6977-47c0-bef5-b2e37554432c
+  port: 17306
+  server: 89.144.35.232
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
