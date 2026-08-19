@@ -89,6 +89,148 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇭🇰 HK 04 TG: @nodpai'
+  port: 6001
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇭🇰 HK 07 TG: @nodpai'
+  port: 51556
+  server: 103.181.164.145
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇹🇼 TW 02 TG: @nodpai'
+  network: ws
+  port: 33412
+  server: ct3.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: ct3.ainivp.com
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇯🇵 JP 04 TG: @nodpai'
+  port: 6003
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇸🇬 SG 06 TG: @nodpai'
+  port: 6004
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- alterId: 2
+  cipher: auto
+  name: 'B - 🇸🇬 SG 16 TG: @nodpai'
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇺🇸 US 18 TG: @nodpai'
+  port: 180
+  server: 82.198.246.37
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- client-fingerprint: chrome
+  name: 'B - 🇺🇸 US 24 TG: @nodpai'
+  network: ws
+  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  port: 443
+  server: blackshadow.dpdns.org
+  sni: support.zoom.us.blackshadow.dpdns.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: support.zoom.us.blackshadow.dpdns.org
+    path: /195.123.218.174-443
+- name: 'B - 🇺🇸 US 32 TG: @nodpai'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: 'B - 🇺🇸 US 33 TG: @nodpai'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41943
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: az.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: 'B - 🇺🇸 US 34 TG: @nodpai'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: 'B - 🇺🇸 US 35 TG: @nodpai'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: 'B - 🇺🇸 US 36 TG: @nodpai'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: 'B - 🇺🇸 US 37 TG: @nodpai'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: 'B - 🇺🇸 US 42 TG: @nodpai'
+  network: ws
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  port: 18000
+  server: 121.154.96.50
+  sni: vpn.rnmcnm.com
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trojan
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇺🇸 US 46 TG: @nodpai'
+  network: ws
+  port: 52620
+  server: 38.60.176.80
+  type: vmess
+  uuid: d60c7a89-40d9-4f09-e8f8-591932ce79ef
+  ws-opts:
+    path: /8704a4ad
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -202,97 +344,58 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷FR_1|1.5MB/s
-  network: ws
-  port: 16644
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b43b4eb3-3874-474d-a2fb-ddf1d15b1398
-  ws-opts:
-    headers:
-      Host: d86f6b4af87f7763136b32ebe64db573.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK_1|4.8MB/s
-  network: ws
-  port: 16622
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 83c25eab-8461-4b6a-b714-f4279535b316
-  ws-opts:
-    headers:
-      Host: a5f19060282ba7516bdd6ce8dd04528b.mobgslb.tbcache.com
-    path: /
 - cipher: aes-256-cfb
-  name: 🇰🇷KR_1|1.9MB/s
+  name: 🇰🇷KR_1|2.8MB/s
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.235
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 🇰🇷KR_5|5.7MB/s
+  name: 🇸🇬SG_3|3.5MB/s
   network: tcp
   password: EQ30679154
   port: '443'
-  server: novel-kodiak.rooster465.autos
+  server: 47.129.160.142
   skip-cert-verify: false
-  sni: novel-kodiak.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇰🇷KR_4|5.2MB/s
-  network: tcp
-  password: EQ30679154
-  port: '443'
-  server: 3.36.124.155
-  skip-cert-verify: false
-  sni: novel-kodiak.rooster465.autos
+  sni: well-goshawk.rooster465.autos
   type: trojan
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK_2|4.3MB/s
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇺🇸US_1|4.3MB/s
+  network: http
+  port: 52080
+  server: 38.246.226.240
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 🇭🇰HK_1|1.0MB/s
   network: ws
-  port: 16622
-  server: t.cnmjcn.cyou
+  port: '16632'
+  server: planb.mojcn.com.linuxlh.xin
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: b43b4eb3-3874-474d-a2fb-ddf1d15b1398
+  uuid: 0c657913-e593-4893-9555-f88478c33a4b
   ws-opts:
     headers:
-      Host: d86f6b4af87f7763136b32ebe64db573.mobgslb.tbcache.com
+      Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: 🇸🇬SG_1|4.3MB/s
-  password: EQ30679154
-  port: '443'
-  server: direct-hawk.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇸🇬SG_2|5.4MB/s
-  network: tcp
-  password: EQ30679154
-  port: '443'
-  server: moved-bass.rooster465.autos
-  skip-cert-verify: false
-  sni: moved-bass.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇸🇬SG_3|4.1MB/s
+  name: 🇸🇬SG_5|3.8MB/s
   network: tcp
   password: EQ30679154
   port: '443'
@@ -302,53 +405,17 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 🇯🇵JP_3|4.7MB/s
+  name: 🇯🇵JP_1|4.5MB/s
   network: tcp
-  password: EQ30679154
-  port: '443'
-  server: 3.112.44.90
-  skip-cert-verify: false
-  sni: brave-tomcat.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇰🇷KR_6|4.6MB/s
-  network: tcp
-  password: EQ30679154
-  port: '443'
-  server: 54.116.195.76
-  skip-cert-verify: false
-  sni: gentle-mastiff.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵JP_4|2.6MB/s
-  network: tcp
-  password: EQ30679154
-  port: '443'
-  server: 54.199.234.4
-  skip-cert-verify: false
-  sni: liked-eft.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵JP_5|6.1MB/s
   password: EQ30679154
   port: '443'
   server: definite-gazelle.rooster465.autos
   skip-cert-verify: false
+  sni: definite-gazelle.rooster465.autos
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 🇸🇬SG_4|4.7MB/s
-  password: EQ30679154
-  port: '443'
-  server: moved-bass.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇸🇬SG_5|1.3MB/s
+  name: 🇸🇬SG_7|4.7MB/s
   network: raw
   password: EQ30679154
   port: '443'
@@ -358,24 +425,33 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 🇰🇷KR_7|3.8MB/s
+  name: 🇰🇷KR_3|1.9MB/s
   network: tcp
   password: EQ30679154
   port: '443'
-  server: gentle-mastiff.rooster465.autos
+  server: 54.116.195.76
   skip-cert-verify: false
   sni: gentle-mastiff.rooster465.autos
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: 🇭🇰HK_6|4.4MB/s
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 120.232.250.161
-  type: ss
+- client-fingerprint: chrome
+  name: 🇯🇵JP_3|4.7MB/s
+  password: EQ30679154
+  port: '443'
+  server: definite-gazelle.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 🇯🇵JP_6|5.0MB/s
+  name: 🇸🇬SG_6|1.9MB/s
+  password: EQ30679154
+  port: '443'
+  server: moved-bass.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇯🇵JP_4|5.5MB/s
   network: tcp
   password: EQ30679154
   port: '443'
@@ -384,13 +460,36 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 🇸🇬SG_6|1.4MB/s
+  name: 🇸🇬SG_9|4.5MB/s
   network: tcp
   password: EQ30679154
   port: '443'
   server: well-goshawk.rooster465.autos
   skip-cert-verify: false
   type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇰🇷KR_5|1.9MB/s
+  password: EQ30679154
+  port: '443'
+  server: gentle-mastiff.rooster465.autos
+  skip-cert-verify: false
+  sni: gentle-mastiff.rooster465.autos
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰HK_5|1.8MB/s
+  password: aed6e687-58a9-4836-ba62-7d8184c94df4
+  port: '32060'
+  server: 82.38.46.65
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇸🇬SG_10|1.5MB/s
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 120.232.253.90
+  type: ss
   udp: true
 - name: HK_speednode_0012
   password: BxceQaOe
