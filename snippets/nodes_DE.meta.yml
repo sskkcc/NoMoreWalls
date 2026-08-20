@@ -1,6 +1,77 @@
 proxies:
-- auth: 2vwMMy8t5Sjl5lfK9dNF1OrU9d0K25V2RNWLbTKwJ6o
-  name: 🇦🇪AE_1|2.2MB/s
+- encryption: none
+  name: 'A - 🇩🇪 DE 01 TG: @nodpai'
+  network: tcp
+  port: 10443
+  server: 136.244.94.171
+  type: vless
+  uuid: a01e27df-a1f1-4b7f-a65b-50dd4b6ac10a
+- encryption: none
+  name: 'A - 🇩🇪 DE 02 TG: @nodpai'
+  network: tcp
+  port: 443
+  server: 136.244.94.171
+  type: vless
+  uuid: 52516534-4986-4959-b30b-a89463eed9af
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: GrpcFuckRKN
+  name: 'A - 🇩🇪 DE 04 TG: @nodpai'
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: cjCwI7alv-GUgef0TW7i-S7jNgnIoZ6aooGYH7Nopxs
+    short-id: '!!str deadbeef'
+  security: reality
+  server: 194.58.41.65
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  uuid: afc941a0-b6b4-42d1-b284-d59a42f083fd
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: GrpcFuckRKN
+  name: 'A - 🇩🇪 DE 05 TG: @nodpai'
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: cjCwI7alv-GUgef0TW7i-S7jNgnIoZ6aooGYH7Nopxs
+    short-id: '!!str deadbeef'
+  security: reality
+  server: 194.58.41.65-uhe66vr6.nike77prime.ru
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  uuid: afc941a0-b6b4-42d1-b284-d59a42f083fd
+- name: 'A - 🇩🇪 DE 06 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.80.111.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime52.workers.dev
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇩🇪 DE 07 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: C1hW1bTA9WOacIK-fHHg-HLkDZ3FY7FhEhAyldMSUEA
+    short-id: '!!str a1b2c3d4e5f6'
+  security: reality
+  server: 84.21.189.197
+  servername: queuev4.vk.com
+  tls: true
+  type: vless
+  uuid: 3ea2d8f2-12c1-4189-8cc5-91d0ee9f5ca0
+- name: 德国
   password: 2vwMMy8t5Sjl5lfK9dNF1OrU9d0K25V2RNWLbTKwJ6o
   port: 443
   server: pixelcast.wwwinternetvideo.click
@@ -96,45 +167,78 @@ proxies:
   sni: keyhop-offshore.roxa.org
   tls: false
   type: hysteria2
-- client-fingerprint: unsafe
-  name: 🇩🇪DE_1|1.4MB/s
+- cipher: aes-256-cfb
+  name: 🇩🇪DE_1|4.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 63.186.69.235
+  type: ss
+- alpn:
+  - http/1.1
+  - h3
+  client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.inAciB3I53AnkMDoEg-e2KjU3YxOk0_5B71RhhgIv2k
+  name: 🇩🇪DE_2|2.8MB/s
   network: ws
   port: 443
-  server: 104.25.213.184
-  servername: edge-5fcec8e0.pages.dev
+  server: 104.18.114.47
+  servername: arvan2.dearhossein-taktaz.ir
   tls: true
   type: vless
   udp: true
-  uuid: 09a1022a-4435-4ee5-bf9c-21bf7a274eaf
+  uuid: b1808b7a-e330-4120-b5fc-90ef09bb41b8
   ws-opts:
     headers:
-      Host: edge-5fcec8e0.pages.dev
-    path: /?ed=2048
+      Host: arvan2.dearhossein-taktaz.ir
+    path: /
+- encryption: none
+  name: 🇩🇪DE_3|4.3MB/s
+  network: tcp
+  port: '22223'
+  server: 63.183.163.238
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  xudp: true
 - cipher: aes-256-cfb
-  name: 🇩🇪DE_2|2.7MB/s
+  name: 🇩🇪DE_4|4.1MB/s
   password: amazonskr05
   port: 443
-  server: 3.75.226.122
+  server: 63.176.139.123
   type: ss
-- cipher: aes-256-cfb
-  name: 🇩🇪DE_3|1.3MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.70.135.154
-  type: ss
-- auth: V1UQuwa-4PRIDW2paxrPe58RcxXHPGyFIGS-5QojaM8
-  name: 🇩🇪DE_4|1.0MB/s
-  password: V1UQuwa-4PRIDW2paxrPe58RcxXHPGyFIGS-5QojaM8
-  port: 443
-  server: player.wwwinternetvideo.click
-  skip-cert-verify: true
-  sni: player.wwwinternetvideo.click
-  type: hysteria2
+  udp: true
 - auth: d9a3a0a2-3bbf-4c04-9ca6-95c7c8390ae7
-  name: 🇩🇪DE_5|2.3MB/s
+  name: 🇩🇪DE_5|4.7MB/s
   password: d9a3a0a2-3bbf-4c04-9ca6-95c7c8390ae7
   port: 443
   server: dereserv.just-cloud.org
   skip-cert-verify: true
   sni: dereserv.just-cloud.org
   type: hysteria2
+- name: 🇩🇪DE_6|2.1MB/s
+  port: 9443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+- alpn:
+  - http/1.1
+  - h3
+  client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.inAciB3I53AnkMDoEg-e2KjU3YxOk0_5B71RhhgIv2k
+  name: 🇩🇪DE_7|2.1MB/s
+  network: ws
+  port: '443'
+  server: fiverr.com
+  servername: arvan2.dearhossein-taktaz.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: b1808b7a-e330-4120-b5fc-90ef09bb41b8
+  ws-opts:
+    headers:
+      Host: arvan2.dearhossein-taktaz.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /
+  xudp: true
